@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EatRun
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_beltGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_bodyMeshGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_bottomTeethGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_eyebrowLeftGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_eyebrowRightGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_eyeLeftGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_eyeRightGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pCube7
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pPlane6
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pPlane7
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pPlane8
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pPlane9
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pPlane10
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_hair/pPlane11
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_mustache
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_shoeLeftGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_shoeRightGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_tongueGEOM
+    m_Weight: 1
+  - m_Path: fm_floridaManGEOMGROUP/fm_topTeethGEOM
+    m_Weight: 1
+  - m_Path: fm_rootJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipLeftJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipLeftJNT/fm_hipLeftROLLJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipLeftJNT/fm_hipLeftROLLJNT/fm_kneeLeftJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipLeftJNT/fm_hipLeftROLLJNT/fm_kneeLeftJNT/fm_ankleLeftJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipLeftJNT/fm_hipLeftROLLJNT/fm_kneeLeftJNT/fm_ankleLeftJNT/fm_ballLeftJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipLeftJNT/fm_hipLeftROLLJNT/fm_kneeLeftJNT/fm_ankleLeftJNT/fm_ballLeftJNT/fm_toeLeftJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipRightJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipRightJNT/fm_hipRightROLLJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipRightJNT/fm_hipRightROLLJNT/fm_kneeRightJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipRightJNT/fm_hipRightROLLJNT/fm_kneeRightJNT/fm_ankleRightJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipRightJNT/fm_hipRightROLLJNT/fm_kneeRightJNT/fm_ankleRightJNT/fm_ballRightJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_hipRightJNT/fm_hipRightROLLJNT/fm_kneeRightJNT/fm_ankleRightJNT/fm_ballRightJNT/fm_toeRightJNT
+    m_Weight: 0
+  - m_Path: fm_rootJNT/fm_spineLowerJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_bellyJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_beltLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_beltRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_chestCenterJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_chestLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_chestRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_handDirectionLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_index1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_index1LeftJNT/fm_index2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_index1LeftJNT/fm_index2LeftJNT/fm_index3LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_index1LeftJNT/fm_index2LeftJNT/fm_index3LeftJNT/fm_indexTipLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_middle1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_middle1LeftJNT/fm_middle2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_middle1LeftJNT/fm_middle2LeftJNT/fm_middle3LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_middle1LeftJNT/fm_middle2LeftJNT/fm_middle3LeftJNT/fm_middleTipLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_pinky1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_pinky1LeftJNT/fm_pinky2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_pinky1LeftJNT/fm_pinky2LeftJNT/fm_pinky3LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_pinky1LeftJNT/fm_pinky2LeftJNT/fm_pinky3LeftJNT/fm_pinkyTipLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_ring1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_ring1LeftJNT/fm_ring2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_ring1LeftJNT/fm_ring2LeftJNT/fm_ring3LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_ring1LeftJNT/fm_ring2LeftJNT/fm_ring3LeftJNT/fm_ringTipLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_thumb1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_thumb1LeftJNT/fm_thumb2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_thumb1LeftJNT/fm_thumb2LeftJNT/fm_thumb3LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavLeftJNT/fm_shoulderLeftJNT/fm_shoulderLeftROLLJNT/fm_elbowLeftJNT/fm_elbowLeftROLLJNT/fm_wristLeftJNT/fm_thumb1LeftJNT/fm_thumb2LeftJNT/fm_thumb3LeftJNT/fm_thumbTipLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_handDirectionRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_holdJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_index1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_index1RightJNT/fm_index2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_index1RightJNT/fm_index2RightJNT/fm_index3RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_index1RightJNT/fm_index2RightJNT/fm_index3RightJNT/fm_indexTipRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_middle1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_middle1RightJNT/fm_middle2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_middle1RightJNT/fm_middle2RightJNT/fm_middle3RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_middle1RightJNT/fm_middle2RightJNT/fm_middle3RightJNT/fm_middleTipRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_pinky1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_pinky1RightJNT/fm_pinky2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_pinky1RightJNT/fm_pinky2RightJNT/fm_pinky3RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_pinky1RightJNT/fm_pinky2RightJNT/fm_pinky3RightJNT/fm_pinkyTipRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_ring1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_ring1RightJNT/fm_ring2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_ring1RightJNT/fm_ring2RightJNT/fm_ring3RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_ring1RightJNT/fm_ring2RightJNT/fm_ring3RightJNT/fm_ringTipRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_thumb1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_thumb1RightJNT/fm_thumb2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_thumb1RightJNT/fm_thumb2RightJNT/fm_thumb3RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_clavRightJNT/fm_shoulderRightJNT/fm_shoulderRightROLLJNT/fm_elbowRightJNT/fm_elbowRightROLLJNT/fm_wristRightJNT/fm_thumb1RightJNT/fm_thumb2RightJNT/fm_thumb3RightJNT/fm_thumbTipRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_midLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_midRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_hairTipJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_directionJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_eyeLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_eyeRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browCenterJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browLeft1JNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browLeft2JNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browLeft3JNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browRight1JNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browRight2JNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_browRight3JNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_cheek2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_cheek2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_cheekLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_cheekRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye3LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye3RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye4LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye4RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye5LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye5RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye6LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye6RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye7LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye7RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye8LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_eye8RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_laugh1LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_laugh1RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_laugh2LeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_laugh2RightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_lipLeftCornerJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_lipRightCornerJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_lipTopCenterJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_lipTopLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_lipTopRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_noseBridgeJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_noseCenterJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_nostrilLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_faceJNTGROUP/fm_nostrilRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_hairBaseJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_hairBaseJNT/fm_hairMidJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_chinJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_jawTipJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_lipBottomCenterJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_lipBottomLeftJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_lipBottomRightJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_teethBottomJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_tongueBaseJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_jawJNT/fm_tongueBaseJNT/fm_tongueTipJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_headBaseJNT/fm_teethTopJNT
+    m_Weight: 1
+  - m_Path: fm_rootJNT/fm_spineLowerJNT/fm_spineMidJNT/fm_neckJNT/fm_neck2JNT
+    m_Weight: 1

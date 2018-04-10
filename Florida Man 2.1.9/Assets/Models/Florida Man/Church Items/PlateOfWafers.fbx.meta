@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 0eccda3d3967110459e9268fcf35182a
+timeCreated: 1522185768
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wafer1
+    100004: Wafer10
+    100006: Wafer11
+    100008: Wafer12
+    100010: Wafer13
+    100012: Wafer2
+    100014: Wafer3
+    100016: Wafer4
+    100018: Wafer5
+    100020: Wafer6
+    100022: Wafer7
+    100024: Wafer8
+    100026: Wafer9
+    100028: WaferPlate
+    400000: //RootNode
+    400002: Wafer1
+    400004: Wafer10
+    400006: Wafer11
+    400008: Wafer12
+    400010: Wafer13
+    400012: Wafer2
+    400014: Wafer3
+    400016: Wafer4
+    400018: Wafer5
+    400020: Wafer6
+    400022: Wafer7
+    400024: Wafer8
+    400026: Wafer9
+    400028: WaferPlate
+    2300000: Wafer1
+    2300002: Wafer10
+    2300004: Wafer11
+    2300006: Wafer12
+    2300008: Wafer13
+    2300010: Wafer2
+    2300012: Wafer3
+    2300014: Wafer4
+    2300016: Wafer5
+    2300018: Wafer6
+    2300020: Wafer7
+    2300022: Wafer8
+    2300024: Wafer9
+    2300026: WaferPlate
+    3300000: Wafer1
+    3300002: Wafer10
+    3300004: Wafer11
+    3300006: Wafer12
+    3300008: Wafer13
+    3300010: Wafer2
+    3300012: Wafer3
+    3300014: Wafer4
+    3300016: Wafer5
+    3300018: Wafer6
+    3300020: Wafer7
+    3300022: Wafer8
+    3300024: Wafer9
+    3300026: WaferPlate
+    4300000: Wafer6
+    4300002: Wafer7
+    4300004: Wafer11
+    4300006: Wafer9
+    4300008: Wafer8
+    4300010: Wafer10
+    4300012: Wafer4
+    4300014: Wafer3
+    4300016: Wafer2
+    4300018: Wafer1
+    4300020: Wafer5
+    4300022: WaferPlate
+    4300024: Wafer13
+    4300026: Wafer12
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
