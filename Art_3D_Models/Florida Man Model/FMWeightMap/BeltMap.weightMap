@@ -1,0 +1,6 @@
+// Exported skin weight map file
+// 
+fm_beltGEOM	fm_spineLowerJNT	fm_beltGEOM_fm_spineLowerJNT.iff
+fm_beltGEOM	fm_bellyJNT	fm_beltGEOM_fm_bellyJNT.iff
+fm_beltGEOM	fm_beltLeftJNT	fm_beltGEOM_fm_beltLeftJNT.iff
+fm_beltGEOM	fm_beltRightJNT	fm_beltGEOM_fm_beltRightJNT.iff

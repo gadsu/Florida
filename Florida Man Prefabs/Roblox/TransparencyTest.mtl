@@ -1,0 +1,40 @@
+newmtl Part4Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.149446 0.147436 0.15351 
+
+d 1
+
+Ns 9
+
+newmtl Part3Mtl
+Material Color
+Ka 0.320382 0.547994 0.715466
+Kd 0.320382 0.547994 0.715466
+Ks 0.128153 0.219197 0.286186 
+
+d 0.501961
+
+Ns 9
+
+newmtl Part2Mtl
+Material Color
+Ka 0 1 0
+Kd 0 1 0
+Ks 0 0.4 0 
+
+d 1
+
+Ns 9
+
+newmtl Part1Mtl
+Material Color
+Ka 1 0 0.529523
+Kd 1 0 0.529523
+Ks 0.4 0 0.211809 
+
+d 1
+
+Ns 9
+
