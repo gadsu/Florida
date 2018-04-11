@@ -21,7 +21,7 @@
 	{
 		float4 pos : POSITION;
 		float4 color : COLOR;
-		float3 normal : NORMAL;
+		//float3 normal : NORMAL;
 	};
 
 	float _OutlineWidth;
@@ -33,7 +33,7 @@
 
 		v2f o;
 		o.pos = UnityObjectToClipPos(v.vertex);
-		//o.color = _OutlineColor;
+		o.color = _OutlineColor;
 		return o;
 	}
 

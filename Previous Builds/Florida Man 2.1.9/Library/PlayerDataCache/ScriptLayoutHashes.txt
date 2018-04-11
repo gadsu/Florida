@@ -230,11 +230,11 @@ b1855e1ac8681ad2627e8fc71d3e0fe1 Assembly-CSharp.dll:.HideUI
 e57aa18e5a4bf215ac6ae7b1f5934af2 Assembly-CSharp.dll:.Drop
 afc52d27c3ec0bd47909e81bd45fbffa Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
-0862e61bfb9d3e4131dbd45168519613 Assembly-CSharp.dll:.GameManager
+e4a1f950fc48a4dd1564b61ae8d75cbe Assembly-CSharp.dll:.GameManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnableWall
 82f2b24f77f383890650ec3229c98895 Assembly-CSharp.dll:.PlayerRespawn
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
 af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Txt2Headline
+155bebe37c09c7b7f0527fdb2bd0a008 Assembly-CSharp.dll:.Txt2Headline
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
