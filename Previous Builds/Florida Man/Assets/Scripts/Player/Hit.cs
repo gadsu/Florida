@@ -28,13 +28,14 @@ public class Hit : MonoBehaviour
     Burp b;
     HeadlineManager hm;
     Rigidbody brb;
-    //public GameObject globe;
+    Rigidbody globe;
     //private float _superBurpForce;
 
     // Use this for initialization
     void Start()
     {
         brb = GameObject.Find("Bell").GetComponent<Rigidbody>();
+        globe = GameObject.Find("Globe").GetComponent<Rigidbody>();
         hm = GameObject.Find("HeadlineManager").GetComponent<HeadlineManager>();
         audioSource = GetComponent<AudioSource>();
         anim = this.GetComponent<Animator>();
@@ -134,7 +135,7 @@ public class Hit : MonoBehaviour
                     }
                     if (hit.collider.tag == "Globe")
                     {
-                        //globe.transform.position.y -= 10;
+                        globe.constraints &= ~RigidbodyConstraints.FreezePositionY;
                     }
                 }
             }

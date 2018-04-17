@@ -112,6 +112,7 @@
   <ItemGroup>
     <None Include="Assets\Animations\Shaders\Outline.shader" />
     <None Include="Assets\Resources\Headlines.txt" />
+    <None Include="Assets\Scripts\Headlines\Headlines.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
