@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour {
 
     public Canvas pauseMenu;
+    public Text timer;
 
 	// Use this for initialization
 	void Start () {
@@ -47,5 +48,17 @@ public class GameManager : MonoBehaviour {
 #else
         Application.Quit();
 #endif
+    }
+
+    public void ToggleTimer()
+    {
+        if (timer.color.a == 0)
+        {
+            timer.color = Color.white;
+        }
+        else
+        {
+            timer.color = Color.clear;
+        }
     }
 }
