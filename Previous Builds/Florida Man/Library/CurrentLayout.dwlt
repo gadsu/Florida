@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 906
+  controlID: 8331
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 907
+  controlID: 8332
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1174
     height: 388
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 908
+  controlID: 8333
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 734
+  controlID: 8129
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -419,9 +419,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -932.15424, y: -105.21343, z: 0.86979795}
+    m_Target: {x: 12.772032, y: -130.4921, z: -943.1707}
     speed: 2
-    m_Value: {x: -932.15424, y: -105.21343, z: 0.86979795}
+    m_Value: {x: 12.772032, y: -130.4921, z: -943.1707}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -444,13 +444,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.04165649, y: 0.704774, z: -0.04152558, w: -0.7069894}
+    m_Target: {x: -0.00049108797, y: -0.9969398, z: 0.077919684, w: -0.0062789028}
     speed: 2
-    m_Value: {x: -0.04165649, y: 0.704774, z: -0.04152558, w: -0.7069894}
+    m_Value: {x: 0.00049108797, y: 0.9969397, z: -0.077919684, w: 0.0062789028}
   m_Size:
-    m_Target: 965.6087
+    m_Target: 944.47766
     speed: 2
-    m_Value: 965.6087
+    m_Value: 944.47766
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -563,7 +563,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 1afcffff00000000384d0000dc510000e45200006a550000f4560000005f0000
+    m_ExpandedIDs: 6cd3fcff1afcffff00000000d0530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,20 +624,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials/Bookshelf
+    - Assets/Scripts/Player
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Materials/Bookshelf
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Phenrear\Desktop\Florida Man\FloridaManGitHub\Florida\Previous
     Builds\Florida Man
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 38340000
-    m_LastClickedID: 13368
-    m_ExpandedIDs: 00000000a4260000443700004e3800006e94000070940000729400007494000076940000789400007a9400007c9400007e940000809400008294000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 83}
+    m_SelectedIDs: 74460000
+    m_LastClickedID: 18036
+    m_ExpandedIDs: 00000000a42600005c330000443700004e38000096930000989300009a9300009c9300009e930000a0930000a2930000a4930000a6930000a8930000aa93000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -665,7 +665,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4260000443700004e380000844200006e94000070940000729400007494000076940000789400007a9400007c9400007e940000809400008294000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000a42600005c330000443700004e38000096930000989300009a9300009c9300009e930000a0930000a2930000a4930000a6930000a8930000aa93000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

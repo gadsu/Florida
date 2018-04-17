@@ -19,6 +19,7 @@ TagManager:
   - Bell
   - PerfumeDisplay
   - Escalator
+  - Globe
   layers:
   - Default
   - TransparentFX

@@ -2837,7 +2837,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 92896696c1e8eb8458d965d333eae517, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 92896696c1e8eb8458d965d333eae517, type: 3}
       propertyPath: m_LocalScale.x
@@ -5956,7 +5956,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 115
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &157733643
 MeshRenderer:
@@ -6128,7 +6128,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &160242875
 MeshRenderer:
@@ -10504,8 +10504,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Pause
+      - m_Target: {fileID: 884571618}
+        m_MethodName: ToggleTimer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10514,7 +10514,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &237503479
@@ -15585,7 +15585,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 121
+  m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &343217828
 MeshRenderer:
@@ -16263,7 +16263,7 @@ GameObject:
   - component: {fileID: 358017373}
   m_Layer: 0
   m_Name: Part2
-  m_TagString: Untagged
+  m_TagString: Globe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16288,12 +16288,12 @@ Transform:
   m_PrefabParentObject: {fileID: 400224, guid: 0b4006925ca938c409b8a5bbefbc45eb, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358017372}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 6.2699986, y: -14.14, z: -19.52}
+  m_LocalScale: {x: 0.23000011, y: 0.23, z: 0.23000011}
   m_Children: []
-  m_Father: {fileID: 1999852141}
-  m_RootOrder: 1
+  m_Father: {fileID: 859245246}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &358017375
 MeshRenderer:
@@ -18590,7 +18590,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 120
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &416821977
 MeshRenderer:
@@ -29963,7 +29963,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 131
+  m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &618144309
 MeshRenderer:
@@ -34644,7 +34644,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 119
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &718066373
 MeshRenderer:
@@ -36741,7 +36741,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 134
+  m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &762031409
 MeshRenderer:
@@ -36913,7 +36913,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 117
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &766446347
 MeshRenderer:
@@ -37415,7 +37415,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 133
+  m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &778573152
 MeshRenderer:
@@ -41201,6 +41201,36 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 858953267}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &859245245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 859245246}
+  m_Layer: 0
+  m_Name: Globe
+  m_TagString: Globe
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &859245246
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859245245}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 84.86958, y: 61.47826, z: 27.260857}
+  m_LocalScale: {x: 4.347827, y: 4.347826, z: 4.347827}
+  m_Children:
+  - {fileID: 358017374}
+  - {fileID: 1126265164}
+  m_Father: {fileID: 1999852141}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &860408746 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100190, guid: 7f3b73def9ca2a241850cdde8013ee65, type: 3}
@@ -41763,6 +41793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1956799488}
+  timer: {fileID: 1966896625}
 --- !u!1 &888128358
 GameObject:
   m_ObjectHideFlags: 0
@@ -46658,7 +46689,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 129
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &973524082
 MeshRenderer:
@@ -47089,7 +47120,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 128
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &979773164
 MeshRenderer:
@@ -47617,7 +47648,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 114
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &992130433
 MeshRenderer:
@@ -53055,7 +53086,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 122
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1123288007
 MeshRenderer:
@@ -53233,7 +53264,7 @@ GameObject:
   - component: {fileID: 1126265163}
   m_Layer: 0
   m_Name: Union1
-  m_TagString: Untagged
+  m_TagString: Globe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53258,12 +53289,12 @@ Transform:
   m_PrefabParentObject: {fileID: 400942, guid: 0b4006925ca938c409b8a5bbefbc45eb, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1126265162}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 6.2699986, y: -14.14, z: -19.52}
+  m_LocalScale: {x: 0.23000011, y: 0.23, z: 0.23000011}
   m_Children: []
-  m_Father: {fileID: 1999852141}
-  m_RootOrder: 112
+  m_Father: {fileID: 859245246}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1126265165
 MeshRenderer:
@@ -57166,7 +57197,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 118
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1212423807
 MeshRenderer:
@@ -60492,7 +60523,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 884571618}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -60500,9 +60531,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: hello
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1313517701
@@ -61852,7 +61883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 125
+  m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1346425572
 MeshRenderer:
@@ -65801,7 +65832,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 130
+  m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1420491101
 MeshRenderer:
@@ -66958,7 +66989,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 123
+  m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1452049757
 MeshRenderer:
@@ -70032,7 +70063,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 124
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1536878449
 MeshRenderer:
@@ -70396,7 +70427,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 126
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1546193090
 MeshRenderer:
@@ -72196,7 +72227,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 127
+  m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1598704168
 MeshRenderer:
@@ -73793,7 +73824,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 116
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1639552704
 MeshRenderer:
@@ -82537,7 +82568,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 113
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1853890140
 MeshRenderer:
@@ -85115,6 +85146,11 @@ Prefab:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1956799488}
+    - target: {fileID: 114197546839338802, guid: 961f40087523d9f4aaef3d50df631d8c,
+        type: 2}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 1966896625}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 961f40087523d9f4aaef3d50df631d8c, type: 2}
   m_IsPrefabParent: 0
@@ -86029,7 +86065,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1999852141}
-  m_RootOrder: 132
+  m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1917736398
 MeshRenderer:
@@ -87571,7 +87607,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 884571618}
         m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
@@ -87581,7 +87617,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1953332172
@@ -88177,7 +88213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -89410,8 +89446,8 @@ Transform:
   m_LocalPosition: {x: 0.627, y: -1.414, z: -1.952}
   m_LocalScale: {x: 0.023, y: 0.023, z: 0.023}
   m_Children:
+  - {fileID: 859245246}
   - {fileID: 160242874}
-  - {fileID: 358017374}
   - {fileID: 1410191136}
   - {fileID: 601367112}
   - {fileID: 435510645}
@@ -89522,7 +89558,6 @@ Transform:
   - {fileID: 659888486}
   - {fileID: 173054522}
   - {fileID: 2016423434}
-  - {fileID: 1126265164}
   - {fileID: 1853890139}
   - {fileID: 992130432}
   - {fileID: 157733642}

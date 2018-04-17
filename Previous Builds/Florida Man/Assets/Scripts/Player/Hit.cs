@@ -28,6 +28,7 @@ public class Hit : MonoBehaviour
     Burp b;
     HeadlineManager hm;
     Rigidbody brb;
+    //public GameObject globe;
     //private float _superBurpForce;
 
     // Use this for initialization
@@ -130,6 +131,10 @@ public class Hit : MonoBehaviour
                     if (hit.collider.tag == "Computer" && hm.p.holding == true)
                     {
                         hm.EarnHeadline("Hit any Key to Continue");
+                    }
+                    if (hit.collider.tag == "Globe")
+                    {
+                        //globe.transform.position.y -= 10;
                     }
                 }
             }
