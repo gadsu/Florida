@@ -29,7 +29,9 @@ public class Txt2Headline : MonoBehaviour
     //[MenuItem("Tools/Read file")]
     public static void ReadFile(Dictionary<string, Headline> headlines, GameObject headlinePrefab)
     {
-        string path = "Assets/Resources/Headlines.txt";
+        string path;
+        path = "Assets/Resources/Headlines.txt";
+        //path = Application.dataPath;
         //TextAsset path = (TextAsset)Resources.Load("Headlines.txt") as TextAsset;
         //TextAsset textFile = (TextAsset)Resources.Load("Headlines.txt") as TextAsset;
         //string path = textFile.text;
