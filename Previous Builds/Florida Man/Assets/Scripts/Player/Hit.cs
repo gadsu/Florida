@@ -103,17 +103,6 @@ public class Hit : MonoBehaviour
 
                 if (p.holding == true)
                 {
-
-                    if (hit.collider.tag == "NPC")
-                    {
-                        hit.rigidbody.AddForce(transform.forward * forceModifier);
-                    }
-
-                    if (hit.collider.tag == "Bookshelf" && hm.p.holding == true)
-                    {
-                        hm.EarnHeadline("Hit the Books");
-                    }
-
                     if (hit.collider.tag == "NPC" && hm.Location == "library" && hm.p.pickup.name == "Book" && hm.p.holding == true)
                     {
                         hm.EarnHeadline("READ!");
@@ -128,15 +117,26 @@ public class Hit : MonoBehaviour
                     {
                         hm.EarnHeadline("Pretty in Pink");
                     }
+                }
 
-                    if (hit.collider.tag == "Computer" && hm.p.holding == true)
-                    {
-                        hm.EarnHeadline("Hit any Key to Continue");
-                    }
-                    if (hit.collider.tag == "Globe")
-                    {
-                        globe.constraints &= ~RigidbodyConstraints.FreezePositionY;
-                    }
+                if (hit.collider.tag == "NPC")
+                {
+                    hit.rigidbody.AddForce(transform.forward * forceModifier);
+                }
+
+                if (hit.collider.tag == "Bookshelf")
+                {
+                    hm.EarnHeadline("Hit the Books");
+                }
+
+                if (hit.collider.tag == "Computer")
+                {
+                    hm.EarnHeadline("Hit any Key to Continue");
+                }
+
+                if (hit.collider.tag == "Globe")
+                {
+                    globe.constraints &= ~RigidbodyConstraints.FreezePositionY;
                 }
             }
             else
