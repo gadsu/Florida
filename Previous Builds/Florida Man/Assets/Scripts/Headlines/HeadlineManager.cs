@@ -240,7 +240,7 @@ public class HeadlineManager : MonoBehaviour {
             EarnHeadline("READ!");
         }*/
 
-        if (Input.GetButtonDown("Hit") && location == "department store" && p.pickup.name == "Perfume")
+        if (Input.GetButtonDown("Hit") && location == "department store" && p.name == "Perfume")
         {
             EarnHeadline("Pretty in Pink");
         }

@@ -182,7 +182,7 @@ public class Hit : MonoBehaviour
                             hm.EarnHeadline("Original Scent");
                         }
 
-                            if (hit.collider.tag == "Bookshelf")
+                            if (hit.collider.tag == "Bookshelf" && transform.position.y <= 2.7)
                         {
                             //Debug.Log("object hit: " + hit);
                             //hit.rigidbody.AddForce(transform.forward * forceModifier);
