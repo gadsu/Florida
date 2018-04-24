@@ -137,6 +137,7 @@ public class Hit : MonoBehaviour
                 if (hit.collider.tag == "Globe")
                 {
                     globe.constraints &= ~RigidbodyConstraints.FreezePositionY;
+                    hm.EarnHeadline("Weight of the World");
                 }
             }
             else

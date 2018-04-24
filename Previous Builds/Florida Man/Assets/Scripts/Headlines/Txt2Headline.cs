@@ -7,6 +7,8 @@ using System.Collections.Generic;
 
 public class Txt2Headline : MonoBehaviour
 {
+    private const int NUM_HEADLINES = 42;
+
     #region Fields
     private Headline myHeadline;
     public TextAsset TextFile;
@@ -39,10 +41,10 @@ public class Txt2Headline : MonoBehaviour
         StreamReader reader = new StreamReader(path);
         int i = 0;
 
-        string[] category = new string[37];
-        string[] title = new string[37];
-        string[] hint = new string[37];
-        string[] description = new string[37];
+        string[] category = new string[NUM_HEADLINES];
+        string[] title = new string[NUM_HEADLINES];
+        string[] hint = new string[NUM_HEADLINES];
+        string[] description = new string[NUM_HEADLINES];
 
         while (!reader.EndOfStream)
         {
@@ -64,7 +66,7 @@ public class Txt2Headline : MonoBehaviour
             i++;
         }
 
-        for (int b = 0; b < 37; b++)
+        for (int b = 0; b < NUM_HEADLINES; b++)
         {
             CreateHeadline(headlines, headlinePrefab, category[b], title[b], hint[b], description[b]);
             //Want to print all of the headlines to the console? :
