@@ -165,7 +165,7 @@ public class Hit : MonoBehaviour
                         {
                             hm.EarnHeadline("Angry Organist");
                         }
-                        Debug.Log("Equipped: " + p.equippedTxt.text);
+                        //Debug.Log("Equipped: " + p.equippedTxt.text);
                         if (hit.collider.tag == "Bell" && p.equippedTxt.text == "Candle")
                         {
                             Vector3 temp = hit.collider.transform.localPosition;

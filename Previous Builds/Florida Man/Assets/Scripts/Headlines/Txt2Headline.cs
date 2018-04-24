@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class Txt2Headline : MonoBehaviour
 {
-    private const int NUM_HEADLINES = 42;
+    private const int NUM_HEADLINES = 41;
 
     #region Fields
     private Headline myHeadline;
@@ -31,13 +31,9 @@ public class Txt2Headline : MonoBehaviour
     //[MenuItem("Tools/Read file")]
     public static void ReadFile(Dictionary<string, Headline> headlines, GameObject headlinePrefab)
     {
-        string path;
-        path = "Assets/Resources/Headlines.txt";
-        //path = Application.dataPath;
-        //TextAsset path = (TextAsset)Resources.Load("Headlines.txt") as TextAsset;
-        //TextAsset textFile = (TextAsset)Resources.Load("Headlines.txt") as TextAsset;
-        //string path = textFile.text;
-        //string file = path.text;
+        string path = Application.dataPath;
+        path = path + "/Resources/Headlines.txt";
+
         StreamReader reader = new StreamReader(path);
         int i = 0;
 
