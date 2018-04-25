@@ -61361,6 +61361,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -225
       objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 4e1af14f94051374d83cd3e58eb37529, type: 3}
+      propertyPath: m_TagString
+      value: Missile
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e1af14f94051374d83cd3e58eb37529, type: 3}
   m_IsPrefabParent: 0
@@ -67623,7 +67627,7 @@ GameObject:
   - component: {fileID: 1348065199}
   m_Layer: 13
   m_Name: SecretBookshelf
-  m_TagString: Untagged
+  m_TagString: Secret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
