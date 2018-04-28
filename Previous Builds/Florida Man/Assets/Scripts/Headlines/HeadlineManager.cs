@@ -17,6 +17,7 @@ public class HeadlineManager : MonoBehaviour {
     public Pickup p;
     public PlayerRespawn r;
     public Movement m;
+    public int count = 0;
 
     //Start Menu Controller Support
     private int category = 0;
@@ -379,14 +380,24 @@ public class HeadlineManager : MonoBehaviour {
             EarnHeadline("Absorb the Holy Word");
         }
 
+        if (Input.GetButtonDown("B") == true && heldItem == "Communion Wine" && p.holding == true)
+        {
+            EarnHeadline("Holy Merlot");
+        }
+
         if (Input.GetButtonDown("B") == true && heldItem == "Wafer" && p.holding == true)
         {
             EarnHeadline("Wafer Glutton");
         }
 
-        if (Input.GetButtonDown("B") == true && heldItem == "Communion Wine" && p.holding == true)
+        if (Input.GetButtonDown("Hit") == true && heldItem == "Communion Wine" && p.holding == true)
         {
             EarnHeadline("Wine Assault");
+        }
+
+        if (count == 39)
+        {
+            EarnHeadline("The Nuclear Option");
         }
     }
 
@@ -396,6 +407,7 @@ public class HeadlineManager : MonoBehaviour {
         {
             //Earned new headline, Do Stuff
             headlineQueue.Enqueue(HideHeadline(title));
+            count++;
         }
     }
 

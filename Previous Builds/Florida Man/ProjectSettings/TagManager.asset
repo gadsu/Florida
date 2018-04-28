@@ -22,6 +22,7 @@ TagManager:
   - Globe
   - Secret
   - Missile
+  - ControlPanel
   layers:
   - Default
   - TransparentFX

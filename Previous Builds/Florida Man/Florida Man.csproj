@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\Interactables\Item_Respawn.cs" />
     <Compile Include="Assets\Scripts\Interactables\NPC_Position.cs" />
     <Compile Include="Assets\Scripts\Interactables\NPC_Respawn.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Secret_Script.cs" />
     <Compile Include="Assets\Scripts\Main Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Main Menu\MainMenuButtons.cs" />
     <Compile Include="Assets\Scripts\Main Menu\PauseMenuButtons.cs" />

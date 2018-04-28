@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class Txt2Headline : MonoBehaviour
 {
-    private const int NUM_HEADLINES = 41;
+    private const int NUM_HEADLINES = 40;
 
     #region Fields
     private Headline myHeadline;
