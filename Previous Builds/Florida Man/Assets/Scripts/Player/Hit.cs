@@ -10,6 +10,7 @@ public class Hit : MonoBehaviour
     public AudioClip hitSound;
     //Animator
     public Animator anim;
+    public Animator dome_anim;
     //Raycasting
     //private GameObject currentHitObject;
     private float sphereRadius = 0.3f;
@@ -31,6 +32,10 @@ public class Hit : MonoBehaviour
     Rigidbody globe;
     //private float _superBurpForce;
 
+    public GameObject missile;
+    public GameObject secret;
+    public GameObject errorDisplay;
+
     // Use this for initialization
     void Start()
     {
@@ -44,6 +49,8 @@ public class Hit : MonoBehaviour
 
         b = this.GetComponent<Burp>();
         //_superBurpForce = 9000.1f;
+        missile.SetActive(false);
+        errorDisplay.SetActive(false);
     }
 
     // Update is called once per frame
@@ -66,6 +73,11 @@ public class Hit : MonoBehaviour
         else
         {
             XButtonTxt.color = XColor;
+        }
+
+        if (brb.position.y <= -25)
+        {
+            brb.gameObject.SetActive(false);
         }
     }
 
@@ -139,6 +151,40 @@ public class Hit : MonoBehaviour
                     globe.constraints &= ~RigidbodyConstraints.FreezePositionY;
                     hm.EarnHeadline("Weight of the World");
                 }
+
+                if (hit.collider.tag == "Secret")
+                {
+                    hm.EarnHeadline("Secret Entrance");
+                    secret.SetActive(false);
+                }
+                
+                if (hit.collider.tag == "ControlPanel")
+                {
+                    if (hm.headlines["Weight of the World"].Unlocked)
+                    {
+                        dome_anim.SetTrigger("Open");
+                        missile.SetActive(true);
+                    }
+                    else
+                    {
+                        errorDisplay.SetActive(true);
+                        StartCoroutine("Wait");
+                    }
+                }
+                
+                if (hit.collider.tag == "Bell")
+                {
+                    brb.GetComponentInChildren<MeshCollider>().convex = true;
+                    brb.isKinematic = false;
+                    brb.useGravity = true;
+                    hit.rigidbody.AddForce(transform.forward * 280f);
+                    hm.EarnHeadline("Bells of Fury");
+                }
+
+                if (hit.collider.tag == "Organ")
+                {
+                    hm.EarnHeadline("Angry Organist");
+                }
             }
             else
             {
@@ -161,34 +207,34 @@ public class Hit : MonoBehaviour
                             hit.rigidbody.AddForce(transform.forward * forceModifier);
                         }
 
-                        if (hit.collider.tag == "Organ")
-                        {
-                            hm.EarnHeadline("Angry Organist");
-                        }
                         //Debug.Log("Equipped: " + p.equippedTxt.text);
-                        if (hit.collider.tag == "Bell" && p.equippedTxt.text == "Candle")
-                        {
-                            Vector3 temp = hit.collider.transform.localPosition;
-                            temp.x += -.15f;
-                            hm.EarnHeadline("Great Bells of Fire");
-                            hit.collider.gameObject.transform.localPosition = temp;
-                            brb.GetComponentInChildren<MeshCollider>().convex = true;
-                            brb.isKinematic = false;
-                            brb.useGravity = true;
-                            hit.rigidbody.AddForce(transform.forward * 280f);
-                        }
 
                         if (hit.collider.tag == "PerfumeDisplay" && hm.Location == "department store")
                         {
                             hm.EarnHeadline("Original Scent");
                         }
+                    }
+                }
+            }
+        }
+    }
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(3);
+        errorDisplay.SetActive(false);
+    }
 
-                            if (hit.collider.tag == "Bookshelf" && transform.position.y <= 2.7)
-                        {
-                            //Debug.Log("object hit: " + hit);
-                            //hit.rigidbody.AddForce(transform.forward * forceModifier);
-                            hm.EarnHeadline("Book Belcher");
-                        }
+    private void OnTriggerStay(Collider other)
+    {
+        if (!anim.GetCurrentAnimatorStateInfo(1).IsName("Burp"))
+        {
+            if (Input.GetAxisRaw("RT") != 0)
+            {
+                if (b._AxisInUse == false)
+                {
+                    if (other.tag == "PerfumeDisplay")
+                    {
+                        hm.EarnHeadline("Original Scent");
                     }
                 }
             }

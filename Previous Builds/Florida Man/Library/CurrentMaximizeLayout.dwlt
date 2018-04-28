@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 713, y: 492}
+  m_MinSize: {x: 713, y: 471}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 534
+  controlID: 3199
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1177
     height: 731
-  m_MinSize: {x: 436, y: 492}
+  m_MinSize: {x: 436, y: 471}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 535
+  controlID: 3200
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1177
     height: 385
-  m_MinSize: {x: 306, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 302, y: 200}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 513
+  controlID: 3201
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,9 +206,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1105475, y: 0.31419826, z: -60.970577}
+    m_Target: {x: -12.483583, y: 8.165962, z: -6.285456}
     speed: 2
-    m_Value: {x: 1.1105475, y: 0.31419826, z: -60.970577}
+    m_Value: {x: -12.483583, y: 8.165962, z: -6.285456}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -231,13 +231,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.00069357886, y: 0.99859226, z: -0.05130362, w: -0.013456717}
+    m_Target: {x: 0.042514693, y: -0.73935825, z: 0.046889875, w: 0.6703309}
     speed: 2
-    m_Value: {x: -0.0006935788, y: 0.99859226, z: -0.05130362, w: -0.013456717}
+    m_Value: {x: -0.042514693, y: 0.73935825, z: -0.046889875, w: -0.6703309}
   m_Size:
-    m_Target: 30.5835
+    m_Target: 30.521568
     speed: 2
-    m_Value: 30.5835
+    m_Value: 30.521568
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -369,7 +369,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 536
+  controlID: 3147
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -423,9 +423,9 @@ MonoBehaviour:
     height: 325
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a910000
-    m_LastClickedID: 37226
-    m_ExpandedIDs: 1afcffff00000000ca800000ee880000ee8f00006a910000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9a75feff3eecffff42ecffff44ecffff60edffff62edffff64edffff66edffff72fbffff1afcffff000000005a720000c6720000da7200000873000034730000b273000006740000827400005675000082750000b2750000b6750000e2750000e6750000f47500008e760000d0760000ea760000367700005277000098770000a0770000e27700000c790000187900003a7900005a7900006c790000827900008e790000e4790000f2790000407a0000a27a0000d87a0000ea7a0000307b00005a7b0000947b0000c47b0000827c0000dc7c00003c7d0000627e00007e7e00008e7e00009e7e0000de7e0000067f00007a7f0000b27f0000e67f000046800000768000007a800000888000009e800000a2800000a6800000ce800000268100009e810000b08100009a8200000083000004830000168300001e8300006083000088830000408400008e84000092840000e4840000fa8400001a85000024850000ca850000ce8500000a8600002e860000908600009e860000ce860000fe8600003287000048870000ca870000ee870000f48700001e8800003a88000020890000f2890000308a0000688a0000dc8a0000028b0000208b0000828b0000348c0000688c0000b88c00001c8d0000b08d0000bc8d0000548e0000d28e0000ec8e0000168f00001e8f0000548f00006e8f0000ee8f0000469000006a9100008493000090930000a29300000c9400002e940000749400000a9500003696000072960000b0960000cc960000389700005297000056970000769700001a98000028980000509800006c9800009a980000ae9800004e990000c8990000109a0000389a0000a09b0000449c0000029d00003a9d00005c9d0000649d0000cc9d0000b69e0000de9e0000f69e00001a9f0000229f0000949f000000a000000ca0000046a0000066a00000cea00000e4a0000076a10000d8a10000e8a1000004a2000016a2000034a20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,20 +513,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources
+    - Assets/Prefabs/Roblox
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Prefabs/Roblox
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Phenrear\Desktop\Florida Man\FloridaManGitHub\Florida\Previous
     Builds\Florida Man
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 80}
-    m_SelectedIDs: ee380000
-    m_LastClickedID: 14574
-    m_ExpandedIDs: 00000000a42600009433000088380000c2cd0000c4cd0000c6cd0000c8cd0000cacd0000cccd0000cecd0000d0cd0000d2cd0000d4cd0000d6cd000000ca9a3bffffff7f
+    m_SelectedIDs: 903a0000
+    m_LastClickedID: 14992
+    m_ExpandedIDs: 00000000a4260000182700009433000088380000903a0000c2cd0000c4cd0000c6cd0000c8cd0000cacd0000cccd0000cecd0000d0cd0000d2cd0000d4cd0000d6cd000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -554,7 +554,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a42600009433000088380000c2cd0000c4cd0000c6cd0000c8cd0000cacd0000cccd0000cecd0000d0cd0000d2cd0000d4cd0000d6cd000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000a4260000182700009433000088380000903a0000c2cd0000c4cd0000c6cd0000c8cd0000cacd0000cccd0000cecd0000d0cd0000d2cd0000d4cd0000d6cd000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,8 +579,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6a910000
-    m_LastClickedInstanceID: 37226
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0e28000034460000e07a01003e350000cc340000ee4dffff663b0000
     m_RenameOverlay:
