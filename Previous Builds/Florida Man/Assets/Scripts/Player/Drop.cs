@@ -68,9 +68,16 @@ public class Drop : MonoBehaviour {
         {
             if (Input.GetButtonDown("LB"))
             {
-                p.pickup.GetComponent<Rigidbody>().useGravity = true;
-                p.pickup.GetComponent<Rigidbody>().isKinematic = false;
-                p.holding = false;
+                try
+                {
+                    p.pickup.GetComponent<Rigidbody>().useGravity = true;
+                    p.pickup.GetComponent<Rigidbody>().isKinematic = false;
+                    p.holding = false;
+                }
+                catch
+                {
+
+                }
             }
         }
         //End Menu Controller Support
