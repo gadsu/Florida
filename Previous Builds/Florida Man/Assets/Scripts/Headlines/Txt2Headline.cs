@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class Txt2Headline : MonoBehaviour
 {
-    private const int NUM_HEADLINES = 40;
+    private const int NUM_HEADLINES = 41;
 
     #region Fields
     private Headline myHeadline;
@@ -87,5 +87,10 @@ public class Txt2Headline : MonoBehaviour
         headline.transform.localScale = new Vector3(1, 1, 1);
         headline.transform.GetChild(1).GetComponent<Text>().text = "Hint: " + title;
         //headline.transform.GetChild(2).GetComponent<Text>().text = headlines[title].Description;
+
+        if (title == "The Nuclear Option")
+        {
+            headline.transform.GetChild(1).GetComponent<Text>().text = "???";
+        }
     }
 }

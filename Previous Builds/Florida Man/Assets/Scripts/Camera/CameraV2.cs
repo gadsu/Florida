@@ -10,7 +10,7 @@ public class CameraV2 : MonoBehaviour {
     public Transform lookAt;
     public Transform camTransform;
 
-    //private Camera cam;
+    private HeadlineManager hm;
 
     private float distance = 3.75f;
     private float currentX = 0.0f;
@@ -19,40 +19,51 @@ public class CameraV2 : MonoBehaviour {
     private float sensitivityY = 2.0f;
 
     private bool controller = false;
+    private bool nope = false;
 
     private void Start()
     {
         camTransform = transform;
-        //cam = Camera.main;
+        hm = GameObject.Find("HeadlineManager").GetComponent<HeadlineManager>();
 
         checkController();
     }
 
     private void Update()
     {
-        if (!GameObject.Find("HeadlineManager").GetComponent<HeadlineManager>().headlineMenu.activeInHierarchy)
+        if (hm.headlines["The Nuclear Option"].Unlocked)
         {
-            if (controller)
-            {
-                currentX += Input.GetAxis("Right X") * sensitivityX;
-                currentY += Input.GetAxis("Right Y") * sensitivityY;
-            }
-            else
-            {
-                currentX += Input.GetAxis("Mouse X");
-                currentY += Input.GetAxis("Mouse Y");
-            }
+            StartCoroutine("Wait");
         }
+        if (nope != true)
+        {
+            if (!GameObject.Find("HeadlineManager").GetComponent<HeadlineManager>().headlineMenu.activeInHierarchy)
+            {
+                if (controller)
+                {
+                    currentX += Input.GetAxis("Right X") * sensitivityX;
+                    currentY += Input.GetAxis("Right Y") * sensitivityY;
+                }
+                else
+                {
+                    currentX += Input.GetAxis("Mouse X");
+                    currentY += Input.GetAxis("Mouse Y");
+                }
+            }
 
-        currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
+            currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
+        }
     }
 
     private void LateUpdate()
     {
-        Vector3 dir = new Vector3(0, 0, -distance);
-        Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
-        camTransform.position = lookAt.position + rotation * dir;
-        camTransform.LookAt(lookAt.position + new Vector3(0,1.5f,0));
+        if (nope != true)
+        {
+            Vector3 dir = new Vector3(0, 0, -distance);
+            Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
+            camTransform.position = lookAt.position + rotation * dir;
+            camTransform.LookAt(lookAt.position + new Vector3(0, 1.5f, 0));
+        }
     }
 
     private void checkController()
@@ -65,5 +76,11 @@ public class CameraV2 : MonoBehaviour {
                 controller = true;
             }
         }
+    }
+
+    private IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(5f);
+        nope = true;
     }
 }

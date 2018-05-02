@@ -8,10 +8,12 @@ public class GameManager : MonoBehaviour {
 
     public Canvas pauseMenu;
     public Text timer;
+    HeadlineManager hm;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         Time.timeScale = 1;
+        hm = GameObject.Find("HeadlineManager").GetComponent<HeadlineManager>();
     }
 	
 	// Update is called once per frame
@@ -25,19 +27,27 @@ public class GameManager : MonoBehaviour {
         {
             SceneManager.LoadScene("MainMenu");
         }
+
+        if (Input.GetButtonDown("Jump") && hm.headlines["The Nuclear Option"].Unlocked)
+        {
+            MainMenu();
+        }
 	}
 
     public void Pause()
     {
-        if(pauseMenu.gameObject.activeInHierarchy == false)
+        if (!hm.headlines["The Nuclear Option"].Unlocked)
         {
-            pauseMenu.gameObject.SetActive(true);
-            Time.timeScale = 0;
-        }
-        else
-        {
-            pauseMenu.gameObject.SetActive(false);
-            Time.timeScale = 1;
+            if (pauseMenu.gameObject.activeInHierarchy == false)
+            {
+                pauseMenu.gameObject.SetActive(true);
+                Time.timeScale = 0;
+            }
+            else
+            {
+                pauseMenu.gameObject.SetActive(false);
+                Time.timeScale = 1;
+            }
         }
     }
 
@@ -60,5 +70,10 @@ public class GameManager : MonoBehaviour {
         {
             timer.color = Color.clear;
         }
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

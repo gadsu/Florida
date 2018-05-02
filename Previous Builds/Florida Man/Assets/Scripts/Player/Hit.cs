@@ -8,6 +8,9 @@ public class Hit : MonoBehaviour
     //Audio
     private AudioSource audioSource;
     public AudioClip hitSound;
+    public AudioClip bellSound;
+    public AudioClip organSound;
+    public AudioClip missileSound;
     //Animator
     public Animator anim;
     public Animator dome_anim;
@@ -98,7 +101,7 @@ public class Hit : MonoBehaviour
             if (Physics.SphereCast(this.transform.position + new Vector3(0, 0.7f, 0), sphereRadius, transform.forward, out hit, maxDistance))
             {
                 //Debug.Log("You can hit: " + hit.transform.gameObject);
-                if (!anim.GetCurrentAnimatorStateInfo(2).IsName("Hit"))
+                if (!anim.GetCurrentAnimatorStateInfo(2).IsName("Hit") && hit.collider.tag != "Organ")
                 {
                     audioSource.PlayOneShot(hitSound, 0.3f);
                 }
@@ -120,7 +123,7 @@ public class Hit : MonoBehaviour
                         hm.EarnHeadline("READ!");
                     }
 
-                    if (hm.p.pickup.name == "Communion Wine" && hm.p.holding == true && hit.collider.tag == "NPC")
+                    if (hit.collider.tag == "NPC" && hm.p.pickup.name == "Communion Wine" && hm.p.holding == true)
                     {
                         hm.EarnHeadline("Wine Assault");
                     }
@@ -164,6 +167,8 @@ public class Hit : MonoBehaviour
                     {
                         dome_anim.SetTrigger("Open");
                         missile.SetActive(true);
+                        hm.EarnHeadline("Big Red Button");
+                        StartCoroutine("Wait2");
                     }
                     else
                     {
@@ -179,11 +184,13 @@ public class Hit : MonoBehaviour
                     brb.useGravity = true;
                     hit.rigidbody.AddForce(transform.forward * 280f);
                     hm.EarnHeadline("Bells of Fury");
+                    hit.collider.GetComponent<AudioSource>().PlayOneShot(bellSound, 0.3f);
                 }
 
-                if (hit.collider.tag == "Organ")
+                if (hit.collider.tag == "Organ" && !anim.GetCurrentAnimatorStateInfo(2).IsName("Hit"))
                 {
                     hm.EarnHeadline("Angry Organist");
+                    hit.collider.GetComponent<AudioSource>().PlayOneShot(organSound, 0.3f);
                 }
             }
             else
@@ -222,6 +229,12 @@ public class Hit : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         errorDisplay.SetActive(false);
+    }
+
+    IEnumerator Wait2()
+    {
+        yield return new WaitForSeconds(2);
+        missile.GetComponent<AudioSource>().PlayOneShot(missileSound, 1.5f);
     }
 
     private void OnTriggerStay(Collider other)

@@ -17,7 +17,7 @@ public class HeadlineManager : MonoBehaviour {
     public Pickup p;
     public PlayerRespawn r;
     public Movement m;
-    public int count = 0;
+    private int count = 0;
 
     //Start Menu Controller Support
     private int category = 0;
@@ -34,6 +34,17 @@ public class HeadlineManager : MonoBehaviour {
     //Start Headline Queue
     Queue<IEnumerator> headlineQueue = new Queue<IEnumerator>();
     //End Headline Queue
+
+    public GameObject canvas;
+    private AudioSource audioSource;
+    public AudioClip nukeSound;
+
+    // Camera shake
+    public Transform camTransform;
+    private float shakeDuration = 70f;
+    private float shakeAmount = 0.1f;
+    private float decreaseFactor = 1.0f;
+    private Vector3 originalPos;
 
     //Access an object without an instance of an object
     private static HeadlineManager instance;
@@ -79,6 +90,8 @@ public class HeadlineManager : MonoBehaviour {
         GameObject.Find("BtnStore").gameObject.GetComponent<Button>().image.color = GameObject.Find("BtnStore").gameObject.GetComponent<Button>().colors.normalColor;
         //End Menu Controller Support
 
+        audioSource = GameObject.Find("Florida Man").GetComponent<AudioSource>();
+
         Txt2Headline.ReadFile(headlines, headlinePrefab);
 
         foreach (GameObject headlineList in GameObject.FindGameObjectsWithTag("HeadlineList"))
@@ -89,6 +102,7 @@ public class HeadlineManager : MonoBehaviour {
         activeButton.headlineList.SetActive(true);
 
         headlineMenu.SetActive(false);
+        canvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -395,9 +409,13 @@ public class HeadlineManager : MonoBehaviour {
             EarnHeadline("Wine Assault");
         }
 
-        if (count == 39)
+        if (count == 40)
         {
             EarnHeadline("The Nuclear Option");
+            originalPos = camTransform.localPosition;
+            StartCoroutine("Shake");
+            camTransform.localPosition = originalPos;
+            StartCoroutine("Wait");
         }
     }
 
@@ -420,10 +438,35 @@ public class HeadlineManager : MonoBehaviour {
         Destroy(headline);
     }
 
-    /*private IEnumerator Wait()
+    private IEnumerator Wait()
     {
-        yield return new WaitForSeconds(2f);
-    }*/
+        float elapsedTime = 0.0f;
+        float fadeTime = 1.5f;
+        yield return new WaitForSeconds(6.5f);
+        canvas.SetActive(true);
+        audioSource.PlayOneShot(nukeSound, 0.5f);
+
+        while (elapsedTime < fadeTime)
+        {
+            yield return new WaitForEndOfFrame();
+            elapsedTime += Time.deltaTime;
+            Color newColor = canvas.GetComponentInChildren<Image>().color;
+            newColor.a = Mathf.Clamp01(elapsedTime / fadeTime);
+            canvas.GetComponentInChildren<Image>().color = newColor;
+        }
+
+        Time.timeScale = 0;
+    }
+
+    IEnumerator Shake()
+    {
+        while (shakeDuration > 0)
+        {
+            yield return new WaitForSeconds(.1f);
+            camTransform.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
+            shakeDuration -= decreaseFactor;
+        }
+    }
 
     private IEnumerator Process()
     {
@@ -473,12 +516,15 @@ public class HeadlineManager : MonoBehaviour {
 
     private void Pause()
     {
-        if (headlineMenu.gameObject.activeInHierarchy)
+        if (!headlines["The Nuclear Option"].Unlocked)
         {
-            Time.timeScale = 0;
-        } else
-        {
-            Time.timeScale = 1;
+            if (headlineMenu.gameObject.activeInHierarchy)
+            {
+                Time.timeScale = 0;
+            } else
+            {
+                Time.timeScale = 1;
+            }
         }
     }
 }
